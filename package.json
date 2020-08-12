@@ -1,0 +1,13 @@
+{
+  "name": "feathers-chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:OSauceda/feathers-chat.git",
+  "author": "OSauceda <osfesa462@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@feathersjs/express": "^4.5.8",
+    "@feathersjs/feathers": "^4.5.8",
+    "@feathersjs/socketio": "^4.5.8"
+  }
+}
