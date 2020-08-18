@@ -11,7 +11,6 @@ module.exports = (options = {}) => {
     }
 
     const { user } = context.params;
-
     const text = data.text.substring(0, 400);
 
     context.data = {

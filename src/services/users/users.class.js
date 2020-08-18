@@ -1,7 +1,6 @@
 const { Service } = require('feathers-nedb');
 
 const crypto = require('crypto');
-
 const gravatarUrl = 'https://s.gravatar.com/avatar';
 const query = 's=60';
 
@@ -17,6 +16,6 @@ exports.Users = class Users extends Service {
       avatar
     };
 
-    return. super.create(userData, params);
+    return super.create(userData, params);
   }
 };
