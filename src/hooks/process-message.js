@@ -16,7 +16,7 @@ module.exports = (options = {}) => {
     context.data = {
       text,
       userId: user._id,
-      createdAt: new Data().getTime()
+      createdAt: new Date().getTime()
     };
 
     return context;
